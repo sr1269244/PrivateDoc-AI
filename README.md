@@ -28,8 +28,8 @@ Step-by-Step Tutorial Chapters
  * 2.0.ipynb: Document ingestion, parsing, and text splitting strategies.
  * 3.0_RAG_LOCAL_PERSIST.ipynb: Setting up local persistence using ChromaDB to retain embeddings across sessions.
  * 4.0_RAG_Add_Documents.ipynb: Expanding the knowledge base dynamically by adding new documents to the existing store.
- * * DOCKER_Model_Runner.ipynb: Guide on containerizing and executing local model runners via Docker for seamless environment parity.
-   * 
+ *  DOCKER_Model_Runner.ipynb: Guide on containerizing and executing local model runners via Docker for seamless environment parity.
+     
 Getting Started
 Prerequisites
  * Docker Desktop installed and running
@@ -45,4 +45,4 @@ cd RAG_Pipeline_SHEETAL
  * Pull your target model:
    docker exec -it ollama ollama pull smollm2
 
- * Launch Jupyter Notebook and explore the tutorial sequence starting from 1.0 RAG_WITH_OWN_TEXT.ipynb.
+ * Open the project in VS Code and explore the tutorial sequence starting from 1.0 RAG_WITH_OWN_TEXT.ipynb.
