@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Local RAG Pipeline with Ollama, LangChain, and Docker
 A fully local, containerized Retrieval-Augmented Generation (RAG) pipeline built for high-performance privacy, featuring local model serving, persistent vector search, and structured Jupyter notebooks.
 Architecture & Tech Stack
@@ -46,3 +47,6 @@ cd RAG_Pipeline_SHEETAL
    docker exec -it ollama ollama pull smollm2
 
  * Open the project in VS Code and explore the tutorial sequence starting from 1.0 RAG_WITH_OWN_TEXT.ipynb.
+=======
+# SHEETAL-s_RAG_Pipeline
+>>>>>>> 43396baca81ec6980987c0f41887a37268f126a3
