@@ -48,5 +48,5 @@ cd RAG_Pipeline_SHEETAL
 
  * Open the project in VS Code and explore the tutorial sequence starting from 1.0 RAG_WITH_OWN_TEXT.ipynb.
 =======
-# SHEETAL-s_RAG_Pipeline
+# PrivateDoc AI: Local RAG Document Intelligence Engine
 >>>>>>> 43396baca81ec6980987c0f41887a37268f126a3
