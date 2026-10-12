@@ -36,9 +36,13 @@ Prerequisites
  * Docker Desktop installed and running
  * Python environment (Jupyter Notebook support)
 Setup Instructions
- * Clone the repository:
-   git clone https://github.com/sr1269244/RAG_Pipeline_SHEETAL.git
-cd RAG_Pipeline_SHEETAL
+ # Clone the repository
+ ```bash
+git clone https://github.com/sr1269244/PrivateDoc-AI.git
+```
+
+# Navigate into the project directory
+cd PrivateDoc-AI
 
  * Start the Ollama Docker Container:
    docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
@@ -47,6 +51,7 @@ cd RAG_Pipeline_SHEETAL
    docker exec -it ollama ollama pull smollm2
 
  * Open the project in VS Code and explore the tutorial sequence starting from 1.0 RAG_WITH_OWN_TEXT.ipynb.
+
 =======
 # PrivateDoc AI: Local RAG Document Intelligence Engine
 >>>>>>> 43396baca81ec6980987c0f41887a37268f126a3
